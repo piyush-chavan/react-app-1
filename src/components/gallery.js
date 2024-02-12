@@ -1,31 +1,29 @@
 import React from "react";
 import "./gallery.css";
+import GalleryImg from "./gallery-img";
 
-function gallery() {
+function Gallery() {
     return (
         <>
-            <h1 style={{ color: "rgb(44, 160, 206)" }}>Space Gallery</h1>
+            <h1 style={{ color: "rgb(44, 160, 206)", fontFamily: '"Itim", cursive' }}>Space Gallery</h1>
             <div className="gallery" >
-                
-                <img className="gallery-img" src="https://upload.wikimedia.org/wikipedia/commons/7/79/243_Ida_-_August_1993_%2816366655925%29.jpg" alt="gallery-img 1" />
-                <img className="gallery-img" src="https://upload.wikimedia.org/wikipedia/commons/7/79/243_Ida_-_August_1993_%2816366655925%29.jpg" alt="gallery-img 2" />
-                <img className="gallery-img" src="https://cdn.wallpapersafari.com/55/87/7cM6SF.jpg" alt="gallery-img 3" />
-                <img className="gallery-img" src="https://gallery-imgs.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="gallery-img 4" />
-                <img className="gallery-img" src="https://external-preview.redd.it/tVHQNTB-3iivZ0QhRM8xmJ9mur-LMl-xerj3cQ_j4-s.jpg?auto=webp&s=0e275bcc6dd42f66255eb2bf8a1e528b7179c48a" alt="gallery-img 5" />
-                <img className="gallery-img" src="https://i.pinimg.com/originals/6c/44/1f/6c441fc6fb56f5e3a93a3240955c7a39.jpg" alt="gallery-img 6" />
-                <img className="gallery-img" src="https://encrypted-tbn0.gstatic.com/gallery-imgs?q=tbn:ANd9GcTo_vpIXLKOst9SasuhIbEuaMtrQEcudOlt1IBNW9k53F9yN00FdToHjPK9BnF_u4khaEs&usqp=CAU" alt="gallery-img 7" />
-                <img className="gallery-img" src="https://i.pinimg.com/originals/a3/cb/ba/a3cbba194c1e44c1e091165650b767da.jpg" alt="gallery-img 3" />
-                <img className="gallery-img" src="https://encrypted-tbn0.gstatic.com/gallery-imgs?q=tbn:ANd9GcS1rxJtb1pyXzS-VoRxOO9T6UCri3jFdLgMaQAL5-OyIR2mUUqJHXBH0goS3_yZJgixe1A&usqp=CAU" alt="gallery-img 3" />
-                <img className="gallery-img" src="https://www.bhmpics.com/downloads/with-stars-Wallpapers/65.1000_f_379592097_x0rflwjb3cepq85dn1ebznaypn8xbg1p.jpg" alt="gallery-img 3" />
-                <img className="gallery-img" src="https://cdn.wallpapersafari.com/55/87/7cM6SF.jpg" alt="gallery-img 3" />
-                <img className="gallery-img" src="https://cdn.wallpapersafari.com/55/87/7cM6SF.jpg" alt="gallery-img 3" />
-                <img className="gallery-img" src="https://cdn.wallpapersafari.com/55/87/7cM6SF.jpg" alt="gallery-img 3" />
 
-
+                <GalleryImg title="Voyager 1" src="https://pop.h-cdn.co/assets/17/36/2048x2048/square-1504620396-voyager-spacecraft.jpg" />
+                <GalleryImg title="Sputnik 1" src="https://upload.wikimedia.org/wikipedia/commons/b/b7/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%B2_%D0%BC%D0%B8%D1%80%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8.jpg" />
+                <GalleryImg title="James Webb Space Telescope" src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQqCgFnFmlyzoYIHvuLiRRUK1YwYxhyhdFUFao1Xg1-Y1YZn0ekCTt62Q1uPYJMFUWt" />
+                <GalleryImg title="Hubble Space Telescope" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/HST-SM4.jpeg" />
+                <GalleryImg title="Apollo 11" src="https://www.nasa.gov/wp-content/uploads/2019/07/edu_srch_celebrate_the_50th_anniversary_apollo11.jpg" />
+                <GalleryImg title="Pioneer 10" src="https://upload.wikimedia.org/wikipedia/commons/f/f0/An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg" />
+                <GalleryImg title="Apollo 13" src="https://cdn.britannica.com/12/132312-050-473056DC/Apollo-13-service-module-command-lunar-panel.jpg" />
+                <GalleryImg title="Galileo" src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Artwork_Galileo-Io-Jupiter.JPG" />
+                <GalleryImg title="Aditya L1 (ISRO)" src="https://www.isro.gov.in/media_isro/image/index/Aditya-L1/ANN_5723.webp" />
+                <GalleryImg title="Chandrayan 1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/PSLV-C11_launch2.jpg/330px-PSLV-C11_launch2.jpg" />
+                <GalleryImg title="Chandrayan 3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/LVM3_M4%2C_Chandrayaan-3_-_Launch_vehicle_lifting_off_from_the_Second_Launch_Pad_%28SLP%29_of_SDSC-SHAR%2C_Sriharikota_03.webp/330px-LVM3_M4%2C_Chandrayaan-3_-_Launch_vehicle_lifting_off_from_the_Second_Launch_Pad_%28SLP%29_of_SDSC-SHAR%2C_Sriharikota_03.webp.png" />
+                <GalleryImg title="Curiosity rover (on mars)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg/330px-Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg" />
 
             </div>
 
         </>
     );
 }
-export default gallery;
+export default Gallery;

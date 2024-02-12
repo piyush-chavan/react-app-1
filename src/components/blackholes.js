@@ -1,8 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-function blackholes() {
+export function Blackholes() {
+    const navigate = useNavigate();
     return (
-        <>
+        <>  <button className="btn btn-success" onClick={()=>navigate("/")} style={{float:'left',margin:'6px'}}><i class="fa-solid fa-house"></i> Home</button>
             <h1>Black Holes</h1>
             <div class="card" style={{width:"18rem"}}>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Black_hole_lensing_web.gif" class="card-img-top" alt="..." />
@@ -16,4 +18,4 @@ function blackholes() {
     )
 }
 
-export default blackholes;
+export default Blackholes;

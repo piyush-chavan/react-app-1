@@ -1,13 +1,17 @@
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 10px;
-    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
+.gallery-img-box{
+    max-width: 100%;
+    margin: 8px;
+}
 .gallery-img {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    max-width: 90%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
